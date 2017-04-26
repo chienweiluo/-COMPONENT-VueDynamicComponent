@@ -1,0 +1,15 @@
+<head>
+    <title>Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <component :is="selectedComponent"></component><br/>
+  <section id="sec">
+    <button @click="selectedComponent = 'one'"><img :src="src1"></button>
+    <button @click="selectedComponent = 'two'"><img :src="src2"></button>
+    <button @click="selectedComponent = 'three'"><img :src="src3"></button>
+  </section>
+</div>
+</body>
