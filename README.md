@@ -1,16 +1,15 @@
 # VueSlides
 
-#vuejs #slider #dynamic #components
 
 ### using
 
-  vue dynamic components
+  - vue dynamic components
   
-  animate.css
+  - animate.css
   
 ### core  
 
-Demo dynamic components
+  Demo dynamic components
 
 ---
 
